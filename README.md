@@ -12,7 +12,7 @@ avoids the need for fancy gate drive or paralleling FETs in favor of SMT packagi
 
 b) the use of SMT inductors and SMT analog switches such as the 
 [74lvc2g53](https://www.ti.com/lit/ds/symlink/sn74lvc2g53.pdf) or 
-[74lvc2g66](https://www.ti.com/lit/ds/symlink/sn74lvc2g66.pdf).
+[74lvc1g66](https://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf).
 This change is not earth-shattering, but it allows a much tighter all-SMT design with as much as 80dB suppression of harmonics.
 The high degree of suppression is achieved by using a filter tuned to put the response zeros directly on the harmonics
 and careful filter layout to suppress parasitic coupling.
