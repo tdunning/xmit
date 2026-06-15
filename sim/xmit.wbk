@@ -5,7 +5,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 100p 8u",
+        ".tran 1n 30u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,31 +22,46 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(77, 175, 74)",
-          "signal": "I(C6)",
-          "trace_type": 258
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/THS6222_tests/xout+)",
+          "trace_type": 257
         },
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(Net-_C1-Pad1_)",
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/THS6222_tests/xout-)",
           "trace_type": 257
+        },
+        {
+          "color": "rgb(229, 196, 148)",
+          "cursor1": {
+            "position": 1.1943079112189758e-05,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursor2": {
+            "position": 1.6928908569450023e-05,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "(V(/THS6222_tests/xout+)+V(/THS6222_tests/xout-))/2",
+          "trace_type": 256
         }
       ]
     },
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 500 5Meg 100Meg",
+        ".ac dec 1000 1Meg 1G",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
         ".probe allp"
       ],
       "dottedSecondary": true,
-      "fixedY1scale": {
-        "max": 0.0,
-        "min": -80.0
-      },
       "margins": {
         "bottom": 45,
         "left": 70,
@@ -57,27 +72,66 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(255, 127, 0)",
-          "cursor1": {
-            "position": 19927159.040032536,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursor2": {
-            "position": 9975146.50466871,
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "cursorD": {
-            "x_format": "3~Hz",
-            "y_format": "3~dB"
-          },
-          "signal": "V(/out1) (gain)",
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/THS6222_tests/out+) (gain)",
           "trace_type": 521
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/THS6222_tests/out-) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/THS6222_tests/xout+) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/THS6222_tests/xout+) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/THS6222_tests/xout-) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/THS6222_tests/xout-) (gain)",
+          "trace_type": 521
+        }
+      ]
+    },
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 500 100k 100Meg",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Filters/power_out) (gain)",
+          "trace_type": 9
         }
       ]
     }
   ],
-  "user_defined_signals": [],
+  "user_defined_signals": [
+    "(V(/THS6222_tests/xout+)+V(/THS6222_tests/xout-))/2"
+  ],
   "version": 7
 }

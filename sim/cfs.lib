@@ -1,0 +1,15 @@
+.subckt cfoa in+ in- out
+* 1. Input Buffer (Unity Gain)
+B3 in_buf 0 v=V(in+)
+Rin_sense in- in_buf 43
+
+* 2. Error Current Sensor
+B2 mirror 0 i=I(Rin_sense)
+Rpole mirror 0 1Meg
+Cpole mirror 0 0.4p
+
+* 3. Transimpedance Gain Stage (Z(s))
+* Ftrans mirrors the current from Vsense into the high-impedance node
+B5 out_raw 0 v=1.3e6 * I(Rpole)
+Rout out_raw out 10
+.ends cfoa
