@@ -6,6 +6,98 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 179.07 49.53)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0c0ed751-8a03-405a-972d-dcacaa180c8b")
+		(property "Sheetname" "Amplifier"
+			(at 179.07 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf-power.kicad_sch"
+			(at 179.07 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 76.2)
+		(size 21.59 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "504c6b8f-78e0-414e-b95c-1cb18df8f301")
+		(property "Sheetname" "Interconnect"
+			(at 180.34 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connections.kicad_sch"
+			(at 180.34 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 144.78 50.8)
 		(size 17.78 8.89)
 		(exclude_from_sim no)
@@ -21,7 +113,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d56c1af1-445b-422e-b409-ad6096fe6282")
-		(property "Sheetname" "transmit filters"
+		(property "Sheetname" "Filters"
 			(at 144.78 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +159,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "fae1f37e-4762-4d35-999b-b733bae1501b")
-		(property "Sheetname" "power"
+		(property "Sheetname" "Power"
 			(at 144.78 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -45,25 +45,25 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -152,7 +152,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -648,7 +648,7 @@
         "uuid": "938afe95-c1c4-4cca-88b7-71a9df9e4417"
       }
     ],
-    "used_designators": "U1-7,V2,L1-6,R1-15,C1-18,#PWR1-25",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -658,11 +658,19 @@
     ],
     [
       "d56c1af1-445b-422e-b409-ad6096fe6282",
-      "transmit filters"
+      "Filters"
     ],
     [
       "fae1f37e-4762-4d35-999b-b733bae1501b",
-      "power"
+      "Power"
+    ],
+    [
+      "0c0ed751-8a03-405a-972d-dcacaa180c8b",
+      "Amplifier"
+    ],
+    [
+      "504c6b8f-78e0-414e-b95c-1cb18df8f301",
+      "Interconnect"
     ]
   ],
   "text_variables": {},
