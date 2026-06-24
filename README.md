@@ -16,3 +16,19 @@ b) the use of SMT inductors and SMT analog switches such as the
 This change is not earth-shattering, but it allows a much tighter all-SMT design with as much as 80dB suppression of harmonics.
 The high degree of suppression is achieved by using a filter tuned to put the response zeros directly on the harmonics
 and careful filter layout to suppress parasitic coupling.
+
+# Transmit filtering
+
+The design of the transmit chain uses one of a number of filters to
+reject harmonics of the main frequency. One of these filters is
+selected using analog switches to suit the desire transmission
+frequency. These filters are designed to have minimal attenuation in
+each of several amateur bands. Since these bands are relatively
+narrow, passband flatness is not a grave concern. The zeros of the
+filters are positioned near the second or third harmonics of the
+carrier to suppress these frequencies very strongly. Higher harmonics
+have nearly 75dB of suppression.
+
+The response curves for the filters designed so far are shown below.
+
+[Filter response curves](images/filters.png)

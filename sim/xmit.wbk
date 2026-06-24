@@ -35,17 +35,17 @@
           "color": "rgb(229, 196, 148)",
           "cursor1": {
             "position": 1.1943079112189758e-05,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursor2": {
             "position": 1.6928908569450023e-05,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
           },
           "signal": "(V(/THS6222_tests/xout+)+V(/THS6222_tests/xout-))/2",
           "trace_type": 256
@@ -106,7 +106,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 500 100k 100Meg",
+        ".ac dec 500 5Meg 480Meg",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -123,9 +123,43 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/Filters/out.10m) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/Filters/out.15m) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/Filters/out.20m) (gain)",
+          "trace_type": 521
+        },
+        {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/Filters/power_out) (gain)",
-          "trace_type": 9
+          "cursor1": {
+            "position": 143850056.03563023,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursor2": {
+            "position": 433028372.79871005,
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dB"
+          },
+          "signal": "V(/Filters/out.2m) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/Filters/out.30m) (gain)",
+          "trace_type": 521
         }
       ]
     }

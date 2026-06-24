@@ -27,7 +27,7 @@
       "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffddad",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffddaf",
     "zone_display_mode": 0
   },
   "git": {

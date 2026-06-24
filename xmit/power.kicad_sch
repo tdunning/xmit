@@ -2064,6 +2064,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 259.08 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0753fd75-6a63-4929-a6f5-bd8a52420c4f")
+		(property "Reference" "#PWR035"
+			(at 259.08 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad7d27a7-1571-4fd7-a403-61b436cf135d")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 140.97 67.31 180)
 		(unit 1)
@@ -2226,6 +2304,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 259.08 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1252f3b4-5bc3-45d8-b6f2-c73467f4d109")
+		(property "Reference" "#PWR034"
+			(at 259.08 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 259.08 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 259.08 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b1d60e3-73a2-4ebd-9d30-050c9f3271bd")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G66")
 		(at 138.43 104.14 0)
 		(unit 2)
@@ -2311,6 +2467,97 @@
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
 					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G66")
+		(at 259.08 104.14 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258f62d2-720c-40e9-af23-abf7e62e4c09")
+		(property "Reference" "U12"
+			(at 265.43 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC1G66"
+			(at 265.43 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "70153216-5e48-462c-bd17-af937461c45b")
+		)
+		(pin "2"
+			(uuid "a559d2d1-b3ae-420d-b298-cc03bd0d431a")
+		)
+		(pin "1"
+			(uuid "8a86214b-efe2-49f7-9b1a-14313e57f375")
+		)
+		(pin "4"
+			(uuid "72131ec1-4753-4841-9113-abb8f9040530")
+		)
+		(pin "3"
+			(uuid "49befb50-d385-4f37-95ef-4897a84ada31")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
+					(reference "U12")
 					(unit 2)
 				)
 			)
@@ -3381,6 +3628,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66ff97a3-3d95-4af6-b21c-b92f731be12b")
+		(property "Reference" "#PWR033"
+			(at 234.95 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c9daab6-380b-4369-babf-47bcf0bb3480")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 107.95 67.31 180)
 		(unit 1)
@@ -4434,6 +4759,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 234.95 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0247116-d118-4fbd-984a-995cc7e78659")
+		(property "Reference" "#PWR026"
+			(at 234.95 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 234.95 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 234.95 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b118c41-e07a-4c3d-b755-294688601707")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 114.3 0)
 		(unit 1)
@@ -4507,6 +4910,97 @@
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
 					(reference "#PWR020")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G66")
+		(at 234.95 104.14 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b30a68-8d35-401a-a419-babe3a05fc33")
+		(property "Reference" "U13"
+			(at 241.3 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LVC1G66"
+			(at 241.3 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 234.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+			(at 234.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+			(at 234.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "54675bc8-8690-4d5a-a21e-5c0f37c893f2")
+		)
+		(pin "2"
+			(uuid "f0cf6728-24d9-4af0-9369-3f7cbfdf6046")
+		)
+		(pin "1"
+			(uuid "ed4d833e-6d48-4092-a494-ffa9889e3317")
+		)
+		(pin "4"
+			(uuid "5eb2cf41-29bd-40a9-86a6-9401c7ccbe48")
+		)
+		(pin "3"
+			(uuid "d5ea6a81-28ff-42ed-b526-01ddfbd1c23d")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/fae1f37e-4762-4d35-999b-b733bae1501b"
+					(reference "U13")
+					(unit 2)
 				)
 			)
 		)

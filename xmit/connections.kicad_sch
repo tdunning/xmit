@@ -869,7 +869,7 @@
 		)
 		(uuid "ee867e43-85df-453e-aa7e-3c3a6c6c26c1")
 	)
-	(label "band.15m"
+	(label "band.10m"
 		(at 87.63 77.47 0)
 		(effects
 			(font
@@ -889,7 +889,7 @@
 		)
 		(uuid "5227ac38-d3d6-433c-8461-f7386dff21ba")
 	)
-	(label "band.10m"
+	(label "band.2m"
 		(at 87.63 80.01 0)
 		(effects
 			(font
@@ -955,7 +955,7 @@
 			)
 		)
 	)
-	(global_label "band{10m,15m,20m,30m}"
+	(global_label "band{2m,10m,20m,30m}"
 		(shape input)
 		(at 81.28 125.73 180)
 		(fields_autoplaced yes)
@@ -967,7 +967,7 @@
 		)
 		(uuid "d71565bb-f95b-450c-a406-229e570c40c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.7418 125.73 0)
+			(at 54.9513 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
