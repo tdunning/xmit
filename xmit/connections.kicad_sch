@@ -781,13 +781,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.88) (xy 69.85 57.15)
+			(xy 69.85 34.29) (xy 69.85 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45be4c7d-c9ca-4887-85b9-de84f652b26d")
+		(uuid "3cb470a6-837f-483f-9695-53c11007b35e")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 67.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d6d74b-db6d-43f8-8175-e3c61a14a03a")
 	)
 	(wire
 		(pts
@@ -801,16 +811,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 67.31 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ed1121-e22f-4919-b8c9-2a582c283ed6")
-	)
-	(wire
-		(pts
 			(xy 67.31 68.58) (xy 97.79 68.58)
 		)
 		(stroke
@@ -821,13 +821,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 59.69) (xy 69.85 59.69)
+			(xy 67.31 38.1) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4e1df0d-b3d1-423c-a8a6-4fabe66ba2f2")
+		(uuid "aa17c09b-9239-4c85-b912-0e06eb52a6fd")
 	)
 	(wire
 		(pts
@@ -851,13 +851,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 69.85 60.96)
+			(xy 69.85 38.1) (xy 69.85 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9db55f1-d6a2-4ebd-aff2-ac3d50eee742")
+		(uuid "e9f946ea-02eb-4409-b3b3-fe9262d0ac93")
 	)
 	(bus
 		(pts
@@ -932,7 +932,7 @@
 			)
 		)
 	)
-	(global_label "out+"
+	(global_label "out-"
 		(shape input)
 		(at 78.74 91.44 0)
 		(fields_autoplaced yes)
@@ -978,7 +978,7 @@
 			)
 		)
 	)
-	(global_label "out-"
+	(global_label "out+"
 		(shape input)
 		(at 78.74 93.98 0)
 		(fields_autoplaced yes)
@@ -998,6 +998,87 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 62.23 35.56 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2773f1be-0fc2-4728-a0ec-80ff4bce8cf8")
+		(property "Reference" "J6"
+			(at 59.182 37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 62.23 30.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:terminal_block_02"
+			(at 62.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb3fff24-5761-482f-af72-46af50265ab9")
+		)
+		(pin "1"
+			(uuid "eb5e17a9-b3dd-4bd5-b6a0-2eeba25102e1")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
+					(reference "J6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1072,6 +1153,84 @@
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f31af77-d1c5-4aaa-b426-bced59a40ab0")
+		(property "Reference" "#PWR036"
+			(at 69.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+20V"
+			(at 69.85 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9b864e3-8c0b-4981-ae33-e202d9dfcffa")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1390,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 60.96 0)
+		(at 69.85 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1240,9 +1399,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6ccb5b6e-5343-4382-9c83-7d8505b2e663")
-		(property "Reference" "#PWR028"
-			(at 69.85 67.31 0)
+		(uuid "7faf9e58-f492-4aa8-9c3a-5434eeff7f46")
+		(property "Reference" "#PWR038"
+			(at 69.85 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1253,7 +1412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 66.04 0)
+			(at 69.85 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1263,7 +1422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 60.96 0)
+			(at 69.85 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1274,7 +1433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 60.96 0)
+			(at 69.85 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1285,7 +1444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 60.96 0)
+			(at 69.85 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1296,12 +1455,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "99951e35-1e99-4f41-bed6-87ef0c2a63d8")
+			(uuid "7e4979db-d076-46c8-a38e-bfcd01d06b4d")
 		)
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
-					(reference "#PWR028")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1418,7 +1577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 67.31 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1499,7 +1658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector:terminal_block_02"
 			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1656,7 +1815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector:terminal_block_02"
 			(at 62.23 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1705,84 +1864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba18a866-9c59-4075-94af-fae2fe02b563")
-		(property "Reference" "#PWR029"
-			(at 69.85 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 69.85 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bd46029-23fc-4835-9e8e-bb3ada053025")
-		)
-		(instances
-			(project "xmit"
-				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 62.23 68.58 0)
 		(mirror y)
@@ -1815,7 +1896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector:terminal_block_02"
 			(at 62.23 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1858,87 +1939,6 @@
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 62.23 57.15 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e879b793-4cfb-4751-938b-e98973e3786f")
-		(property "Reference" "J3"
-			(at 59.182 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 62.23 51.816 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "240f26af-e7c9-47fa-8257-eb5b4967cbea")
-		)
-		(pin "1"
-			(uuid "c97f1546-6924-4ba3-95e9-7fb7e69d96c6")
-		)
-		(instances
-			(project "xmit"
-				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/504c6b8f-78e0-414e-b95c-1cb18df8f301"
-					(reference "J3")
 					(unit 1)
 				)
 			)

@@ -4136,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Value" "L7805"
+		(property "Value" "TLV760"
 			(at 88.9 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 89.535 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4159,7 +4159,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv760.pdf"
 			(at 88.9 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4170,7 +4170,7 @@
 				)
 			)
 		)
-		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+		(property "Description" ""
 			(at 88.9 60.96 0)
 			(hide yes)
 			(show_name no)
