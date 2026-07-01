@@ -1500,7 +1500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06a49255-2158-407c-8c31-8eaa4126371f")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0401"
 			(at 120.65 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1560,7 +1560,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "#PWR037")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1577,7 +1577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19ade389-7ca7-4d25-9301-ecacddf17722")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0403"
 			(at 139.7 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1637,7 +1637,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "#PWR039")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63bb2408-d91d-4e3d-bce3-b8543caa3b8d")
-		(property "Reference" "C25"
+		(property "Reference" "C402"
 			(at 113.03 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1718,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "C25")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6594f8f1-c2d5-41df-affd-6bc3807288df")
-		(property "Reference" "R42"
+		(property "Reference" "R402"
 			(at 173.99 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,7 +1800,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "R42")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -1818,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb45baa-9b32-473a-ba50-d6c3f386e00d")
-		(property "Reference" "R43"
+		(property "Reference" "R404"
 			(at 173.99 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1882,7 +1882,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "R43")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -1899,7 +1899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81a61576-a127-4743-8751-f22a020625e5")
-		(property "Reference" "R45"
+		(property "Reference" "R406"
 			(at 186.69 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +1962,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "R45")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -1980,7 +1980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94574c02-5007-4b30-a413-5b275f06ec27")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0404"
 			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2040,7 +2040,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "#PWR027")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
@@ -2058,7 +2058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cd10467-ce42-48e3-bb82-efbb4918f084")
-		(property "Reference" "R46"
+		(property "Reference" "R403"
 			(at 173.99 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2122,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "R46")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aef7f456-3b0c-45bb-9c80-735ade2d98bc")
-		(property "Reference" "U8"
+		(property "Reference" "U401"
 			(at 143.51 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2171,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 144.78 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2238,7 +2238,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "U8")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -2256,7 +2256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca384d0d-9e27-4be6-bbb8-06b8553290c2")
-		(property "Reference" "C24"
+		(property "Reference" "C401"
 			(at 118.11 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,7 +2318,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "C24")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -2335,7 +2335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d309e653-8e91-49ae-b3a5-8d53df0d3de0")
-		(property "Reference" "R41"
+		(property "Reference" "R401"
 			(at 168.148 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2398,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "R41")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -2415,7 +2415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da9a941c-545c-49e9-94cd-302d027ffecc")
-		(property "Reference" "R44"
+		(property "Reference" "R405"
 			(at 186.69 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,7 +2478,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "R44")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -2495,7 +2495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea837a52-cb70-481c-8842-e2389446b432")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0402"
 			(at 137.16 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2555,7 +2555,7 @@
 		(instances
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/0c0ed751-8a03-405a-972d-dcacaa180c8b"
-					(reference "#PWR040")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)

@@ -19,7 +19,7 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": true,
+      "graphics": false,
       "keepouts": true,
       "lockedItems": false,
       "otherItems": false,
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_7fff5f2b",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffff7f67",
     "zone_display_mode": 0
   },
   "git": {
