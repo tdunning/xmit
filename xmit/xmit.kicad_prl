@@ -17,12 +17,12 @@
     },
     "prototype_zone_fills": false,
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": false,
+      "graphics": true,
       "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
+      "otherItems": true,
       "pads": false,
       "text": true,
       "tracks": true,
@@ -53,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffff7f67",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_7fff55a5",
     "zone_display_mode": 0
   },
   "git": {

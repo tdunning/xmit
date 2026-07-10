@@ -106,7 +106,7 @@
     {
       "analysis": "AC",
       "commands": [
-        ".ac dec 500 5Meg 480Meg",
+        ".ac dec 500 5Meg 250Meg",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -139,13 +139,23 @@
         },
         {
           "color": "rgb(228, 26, 28)",
+          "signal": "V(/Filters/out.2m) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/Filters/out.30m) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(55, 126, 184)",
           "cursor1": {
-            "position": 143850056.03563023,
+            "position": 7093384.088156124,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
           "cursor2": {
-            "position": 433028372.79871005,
+            "position": 21083035.666245826,
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
@@ -153,12 +163,7 @@
             "x_format": "3~Hz",
             "y_format": "3~dB"
           },
-          "signal": "V(/Filters/out.2m) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(255, 127, 0)",
-          "signal": "V(/Filters/out.30m) (gain)",
+          "signal": "V(/Filters/out.40m) (gain)",
           "trace_type": 521
         }
       ]

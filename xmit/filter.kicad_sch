@@ -797,6 +797,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1199,10 +1400,28 @@
 		(uuid "00805494-d047-46e7-bd04-c3fe7abba73d")
 	)
 	(junction
+		(at 214.63 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d1fd4d-9bde-4422-879e-790446cc55c3")
+	)
+	(junction
+		(at 214.63 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06d8c1c2-3293-4e90-83b5-065d1d04da9c")
+	)
+	(junction
 		(at 237.49 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c6cc574-89fd-4b39-82d4-4df9bf373a70")
+	)
+	(junction
+		(at 214.63 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ecd6c76-bf4d-4035-a340-b4b5f97b2813")
 	)
 	(junction
 		(at 105.41 118.11)
@@ -1271,12 +1490,6 @@
 		(uuid "514722a6-5a7a-463c-8e1c-6aa581e3e51a")
 	)
 	(junction
-		(at 237.49 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b0d591b-6023-49f7-b263-f2d8dae78c8d")
-	)
-	(junction
 		(at 105.41 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1299,6 +1512,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d8eec53-bd94-4cc4-b099-526ba667414a")
+	)
+	(junction
+		(at 214.63 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d9c7fd9-e458-4038-8fe5-3481ca5284da")
+	)
+	(junction
+		(at 107.95 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76e85898-c4f6-4d26-a640-814fa87d3c33")
 	)
 	(junction
 		(at 146.05 139.7)
@@ -1416,6 +1641,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 147.32) (xy 214.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d55e6e9-8aaa-4089-b8a5-5a847f838bdc")
+	)
+	(wire
+		(pts
 			(xy 105.41 118.11) (xy 105.41 139.7)
 		)
 		(stroke
@@ -1456,13 +1691,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 38.1) (xy 115.57 38.1)
+			(xy 247.65 40.64) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ced3d4-5d77-4c8f-8d41-fb8eb0b877a7")
+	)
+	(wire
+		(pts
+			(xy 102.87 38.1) (xy 107.95 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "16fd96f2-4206-435d-9760-5bfec5ac2eef")
+	)
+	(wire
+		(pts
+			(xy 252.73 123.19) (xy 252.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19408bc0-d9c1-4f0a-b429-2ec42b358b92")
 	)
 	(wire
 		(pts
@@ -1473,6 +1728,16 @@
 			(type default)
 		)
 		(uuid "19dd487a-c7da-45c9-b797-1af01c6a6f0a")
+	)
+	(wire
+		(pts
+			(xy 252.73 90.17) (xy 252.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1ec6af-df7c-4c0a-8aeb-fa8976593ba8")
 	)
 	(wire
 		(pts
@@ -1503,6 +1768,26 @@
 			(type default)
 		)
 		(uuid "1d738b6b-980b-49c4-ac78-90af3a2c2f49")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e509823-02f5-4b02-b038-2b7d139f52e4")
+	)
+	(wire
+		(pts
+			(xy 214.63 81.28) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200114c1-11df-431d-a16a-1e7e6f706218")
 	)
 	(wire
 		(pts
@@ -1666,6 +1951,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 38.1) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42632db4-39d0-461f-9e18-de5aee82f532")
+	)
+	(wire
+		(pts
 			(xy 189.23 71.12) (xy 189.23 73.66)
 		)
 		(stroke
@@ -1693,6 +1988,16 @@
 			(type default)
 		)
 		(uuid "4ee3a683-b9fa-4ecb-93ce-8b38d1a90c41")
+	)
+	(wire
+		(pts
+			(xy 247.65 114.3) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55737677-ba6a-4faa-8385-46bc16646072")
 	)
 	(wire
 		(pts
@@ -1736,6 +2041,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 149.86) (xy 252.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f66d073-065e-41fc-a6c9-70ac4469bb45")
+	)
+	(wire
+		(pts
 			(xy 152.4 59.69) (xy 146.05 59.69)
 		)
 		(stroke
@@ -1746,6 +2061,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 114.3) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e49f5a-82bb-47da-80dc-25147e5825a9")
+	)
+	(wire
+		(pts
 			(xy 167.64 30.48) (xy 175.26 30.48)
 		)
 		(stroke
@@ -1753,6 +2078,16 @@
 			(type default)
 		)
 		(uuid "62e64493-6499-4627-943b-07fadd441bd6")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 251.46 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d6cc7f-4f01-469b-8664-4d1119d48065")
 	)
 	(wire
 		(pts
@@ -1773,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "6a102dad-f5e1-4414-a127-90467be0297c")
+	)
+	(wire
+		(pts
+			(xy 247.65 81.28) (xy 252.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6c4451-7333-4705-baab-596ee8ab19db")
 	)
 	(wire
 		(pts
@@ -1836,6 +2181,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 149.86) (xy 252.73 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767e7298-c72f-4629-98bb-18e24ea61c7e")
+	)
+	(wire
+		(pts
 			(xy 189.23 30.48) (xy 189.23 33.02)
 		)
 		(stroke
@@ -1843,6 +2198,16 @@
 			(type default)
 		)
 		(uuid "777d744a-6ad0-4eaa-9784-76af68f5663c")
+	)
+	(wire
+		(pts
+			(xy 52.07 128.27) (xy 52.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7923a943-e6bb-46ff-b130-04fa031ebb47")
 	)
 	(wire
 		(pts
@@ -1863,6 +2228,16 @@
 			(type default)
 		)
 		(uuid "81bc0536-5eb0-4c86-af5c-022d29b68ef6")
+	)
+	(wire
+		(pts
+			(xy 214.63 40.64) (xy 214.63 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d902e6-75a6-4cf1-898c-82d4c64396b9")
 	)
 	(wire
 		(pts
@@ -1903,6 +2278,16 @@
 			(type default)
 		)
 		(uuid "8a2fc0d6-3db4-4931-98c7-72909e4e2ffe")
+	)
+	(wire
+		(pts
+			(xy 251.46 49.53) (xy 251.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a75e082-20d1-4f4e-b29e-c432ef8da99c")
 	)
 	(wire
 		(pts
@@ -1996,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 255.27 95.25)
+			(xy 237.49 104.14) (xy 255.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2033,6 +2418,16 @@
 			(type default)
 		)
 		(uuid "a146e5d8-11cb-4a46-a15e-9149865ac682")
+	)
+	(wire
+		(pts
+			(xy 52.07 107.95) (xy 52.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2079cd8-dec1-49da-bb4f-a3c05654ef2f")
 	)
 	(wire
 		(pts
@@ -2086,16 +2481,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 147.32) (xy 214.63 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9402a96-d66f-4442-bf2f-0e67b49b0449")
-	)
-	(wire
-		(pts
 			(xy 189.23 115.57) (xy 189.23 116.84)
 		)
 		(stroke
@@ -2106,13 +2491,33 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 71.12) (xy 237.49 95.25)
+			(xy 201.93 147.32) (xy 214.63 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d1173a-8c70-47a4-b2f3-394244bd2af3")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 237.49 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b313dce2-8222-45e5-835f-e5454ea96448")
+	)
+	(wire
+		(pts
+			(xy 252.73 114.3) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36c5553-67af-4185-bf14-180b6fbead99")
 	)
 	(wire
 		(pts
@@ -2204,6 +2609,16 @@
 		)
 		(uuid "c579019c-5faf-4f38-8a2f-ed4558d72d64")
 	)
+	(wire
+		(pts
+			(xy 214.63 149.86) (xy 241.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fd360e-42c6-4fdb-b175-dd4fb713b1d2")
+	)
 	(bus
 		(pts
 			(xy 93.98 162.56) (xy 100.33 162.56)
@@ -2226,16 +2641,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 237.49 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdae1453-f02a-4116-89d7-431ead3155cb")
-	)
-	(wire
-		(pts
 			(xy 160.02 104.14) (xy 167.64 104.14)
 		)
 		(stroke
@@ -2243,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "ce4cb487-ee88-4372-9e35-86105f311abc")
+	)
+	(wire
+		(pts
+			(xy 252.73 81.28) (xy 252.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6ee6b1-a1d0-43a6-90e9-86ea68565b48")
 	)
 	(wire
 		(pts
@@ -2296,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 114.3) (xy 214.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8228ee5-27b0-4b86-9fef-77098b08865e")
+	)
+	(wire
+		(pts
 			(xy 160.02 128.27) (xy 167.64 128.27)
 		)
 		(stroke
@@ -2323,6 +2748,16 @@
 			(type default)
 		)
 		(uuid "e5b0ccbf-2c47-470d-9a17-21322c1f6481")
+	)
+	(wire
+		(pts
+			(xy 252.73 158.75) (xy 252.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c5d557-4443-46c6-8332-61808eba0b85")
 	)
 	(wire
 		(pts
@@ -2366,6 +2801,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 40.64) (xy 240.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1736cf-4b8b-4684-b468-240e58b5cc2c")
+	)
+	(wire
+		(pts
+			(xy 214.63 81.28) (xy 240.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb022b7c-d1a3-4be0-8cb9-afd8f057cd30")
+	)
+	(wire
+		(pts
 			(xy 167.64 128.27) (xy 167.64 143.51)
 		)
 		(stroke
@@ -2403,6 +2858,16 @@
 			(type default)
 		)
 		(uuid "f2c5bc3a-5f38-4961-93f3-8362f8cda79f")
+	)
+	(wire
+		(pts
+			(xy 107.95 44.45) (xy 109.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f471f808-018e-403b-8000-a76f6c2fa2c1")
 	)
 	(wire
 		(pts
@@ -2549,7 +3014,7 @@
 	)
 	(global_label "rf_drive"
 		(shape input)
-		(at 255.27 95.25 0)
+		(at 255.27 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2559,7 +3024,7 @@
 		)
 		(uuid "531d355f-80cc-4750-9242-af15acc35a3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.3309 95.25 0)
+			(at 265.3309 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2778,9 +3243,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ebe61d7-8fd5-4447-bf5e-d6dd75ba0b59")
@@ -2795,7 +3260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200p"
+		(property "Value" "430p"
 			(at 171.45 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,6 +3304,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C520006"
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 167.64 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e153fd7f-322d-4448-a378-e87700ea0d78")
 		)
@@ -2860,14 +3347,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "139ea6fa-14a4-4fcc-aa9c-2fadf9beff3e")
 		(property "Reference" "L201"
 			(at 156.21 14.224 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2876,7 +3362,7 @@
 				)
 			)
 		)
-		(property "Value" "2200n"
+		(property "Value" "810nH"
 			(at 156.21 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,7 +3383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0084_PDF_INDUCTOR"
 			(at 156.21 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -2908,7 +3394,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "-- mixed values --"
+			(at 156.21 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C139231"
+			(at 156.21 19.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -3018,9 +3526,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1998fbb5-3ad2-4725-8eb9-99f05013391a")
@@ -3034,7 +3542,7 @@
 				)
 			)
 		)
-		(property "Value" "56n"
+		(property "Value" "56nH"
 			(at 179.07 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3055,7 +3563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3066,7 +3574,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 179.07 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C98996"
+			(at 179.07 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3098,9 +3628,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1da7901c-59ad-4f55-8532-d69a3b5f777e")
@@ -3115,7 +3645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "72p"
+		(property "Value" "39p"
 			(at 171.45 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,6 +3689,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C107117"
+			(at 167.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 167.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3f7bbeb1-589a-46ce-8201-cf4d7334be2d")
 		)
@@ -3180,9 +3732,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff8e446-b2c3-4617-b579-ff715e90dc45")
@@ -3196,7 +3748,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6p"
+		(property "Value" "10n"
 			(at 179.07 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,6 +3791,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C76626"
+			(at 179.07 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 179.07 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae754f03-4564-46cd-9d29-41eaa247247c")
 		)
@@ -3255,14 +3829,116 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 104.14 90)
+		(lib_id "Device:R")
+		(at 245.11 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d7b40f-5f2b-45ca-8618-b8275e362e26")
+		(property "Reference" "R206"
+			(at 245.11 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 245.11 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 245.11 151.638 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22775"
+			(at 245.11 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 245.11 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35582d2a-a97b-4e7c-83c7-aa44d309807e")
+		)
+		(pin "2"
+			(uuid "4b1c23e5-3755-4bf4-8c85-65288cc7ef57")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "R206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259b636c-f9b0-4a63-84e7-50b85a49b54b")
@@ -3276,7 +3952,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9p"
+		(property "Value" "15p"
 			(at 156.21 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,6 +3985,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C107110"
+			(at 156.21 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3418,9 +4116,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35966b48-4bb3-4ae7-80ee-edb5d18c4a0e")
@@ -3434,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "33p"
 			(at 156.21 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3477,6 +4175,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85970"
+			(at 156.21 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 156.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc2ddf91-37a2-424f-b823-efdda097576f")
 		)
@@ -3498,9 +4218,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35d82a86-4011-46c9-ac58-3b59c67db379")
@@ -3515,7 +4235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "560p"
 			(at 149.86 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3559,6 +4279,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C107119"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30307044-2e8f-49e4-a2ea-1d92e62c23de")
 		)
@@ -3575,14 +4317,116 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 111.76 0)
+		(lib_id "Device:R")
+		(at 243.84 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36b9bb03-1dff-4f9a-8c4a-56c758a623c7")
+		(property "Reference" "R205"
+			(at 243.84 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 243.84 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.84 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22775"
+			(at 243.84 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 243.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6fbc96a5-1bba-4cbb-8ca3-61e1ca1105d7")
+		)
+		(pin "2"
+			(uuid "15b03487-dab8-4923-9c71-dbaa3b1a8912")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373dbf30-8e74-41fd-bfba-fd1ee598c364")
@@ -3597,7 +4441,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "81p"
+		(property "Value" "430p"
 			(at 171.45 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3641,6 +4485,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C126556"
+			(at 167.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 167.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e7ab2cd-5200-429b-bdd4-ed6692ee40d6")
 		)
@@ -3662,9 +4528,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "40a58f09-4884-4289-80c3-6aecb4b36f18")
 		(property "Reference" "C218"
@@ -3678,7 +4544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120p"
+		(property "Value" "270p"
 			(at 181.864 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,6 +4578,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2986280"
+			(at 189.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 189.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3899,9 +4787,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a78064-cde3-4e3d-ad07-27ddde5c2cb9")
@@ -3915,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "39p"
 			(at 179.07 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3948,6 +4836,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C76645"
+			(at 179.07 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 179.07 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4005,7 +4915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 227.33 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4016,7 +4926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 227.33 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4027,7 +4937,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 227.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 227.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 227.33 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4063,14 +4995,116 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 167.64 36.83 0)
+		(lib_id "Device:R")
+		(at 243.84 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4925f4ba-6260-454d-9509-13621b3c8329")
+		(property "Reference" "R203"
+			(at 243.84 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 243.84 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.84 42.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22775"
+			(at 243.84 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5535aae-91ce-48fa-82cf-53efa9a2abb3")
+		)
+		(pin "2"
+			(uuid "5edcbf28-45a4-48df-870e-69663ac02990")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "R203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb084cd-4558-4eb5-857e-71712d78fea9")
@@ -4085,7 +5119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "820p"
 			(at 171.45 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,6 +5153,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C309484"
+			(at 167.64 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 167.64 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4228,9 +5284,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "55771df8-4bb5-4832-bb94-268067b2f263")
 		(property "Reference" "C217"
@@ -4244,7 +5300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "560p"
 			(at 181.61 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,6 +5344,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C97881"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dce6cb39-599b-497c-8276-8660ab0a2181")
 		)
@@ -4305,7 +5383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 127 0)
+		(at 52.07 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4316,7 +5394,7 @@
 		(fields_autoplaced yes)
 		(uuid "599b4e37-af59-46cf-8a16-80b3d43fa980")
 		(property "Reference" "#PWR0202"
-			(at 52.07 133.35 0)
+			(at 52.07 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4327,7 +5405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 132.08 0)
+			(at 52.07 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4337,7 +5415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 127 0)
+			(at 52.07 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +5426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 127 0)
+			(at 52.07 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,7 +5437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 127 0)
+			(at 52.07 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,7 +5491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4424,7 +5502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4435,7 +5513,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 128.27 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 128.27 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 128.27 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4476,9 +5576,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d6a4b28-c880-4ea4-9412-18057e3634ec")
@@ -4492,7 +5592,7 @@
 				)
 			)
 		)
-		(property "Value" "8.1p"
+		(property "Value" "18p"
 			(at 156.21 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,6 +5625,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113825"
+			(at 156.21 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4582,7 +5704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 128.27 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +5715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 128.27 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4604,7 +5726,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 128.27 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4671,7 +5815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4682,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4693,7 +5837,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4734,9 +5900,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63449965-a4c5-4483-9fab-fba928327732")
@@ -4750,7 +5916,7 @@
 				)
 			)
 		)
-		(property "Value" "1600n"
+		(property "Value" "810nH"
 			(at 156.21 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +5937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
 			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4782,7 +5948,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 156.21 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C98996"
+			(at 156.21 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4892,9 +6080,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b792a41-1a00-4fc2-89c7-69e2c89f6a1c")
@@ -4908,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Value" "9p"
+		(property "Value" "33p"
 			(at 179.07 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,6 +6139,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85970"
+			(at 179.07 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 179.07 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5672b54d-ded7-42a9-a794-4957a7abf8ce")
 		)
@@ -4967,14 +6177,91 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.05 77.47 0)
+		(lib_id "power:GND")
+		(at 252.73 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(uuid "6defa50d-9454-47a6-824b-efae563e4def")
+		(property "Reference" "#PWR0218"
+			(at 252.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.048 93.726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dbdb9e2-c77c-4a3e-ac28-6034f1a5fba7")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f6d66ce-21bd-4490-8a9a-03da3310038f")
@@ -4989,7 +6276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120p"
+		(property "Value" "270p"
 			(at 149.86 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5033,6 +6320,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C107106"
+			(at 146.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 146.05 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e06023a-0416-42a5-88cf-4e3d0bdb9a4b")
 		)
@@ -5043,6 +6352,83 @@
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
 					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "746442c6-1666-4818-83eb-cadc6cd94121")
+		(property "Reference" "#PWR0220"
+			(at 252.73 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.048 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e58488a-d503-4ad7-b1b8-65690976be10")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -5158,7 +6544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5169,7 +6555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5180,7 +6566,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5221,15 +6629,14 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3ccd74-4e1d-4355-9ae5-894ea6f7798a")
 		(property "Reference" "L205"
 			(at 179.07 13.97 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5238,7 +6645,7 @@
 				)
 			)
 		)
-		(property "Value" "2000n"
+		(property "Value" "810nH"
 			(at 179.07 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0084_PDF_INDUCTOR"
 			(at 179.07 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -5270,7 +6677,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "-- mixed values --"
+			(at 179.07 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C98996"
+			(at 179.07 19.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 179.07 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -5302,13 +6731,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7ee1e465-2dd3-49cd-bd47-785933d124f8")
 		(property "Reference" "C220"
-			(at 182.88 146.05 0)
+			(at 182.118 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5319,7 +6748,7 @@
 			)
 		)
 		(property "Value" "33p"
-			(at 183.134 148.59 0)
+			(at 182.372 147.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5362,6 +6791,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C85970"
+			(at 189.23 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b0ad105-4f4f-4b2c-ad7c-30713cffcf6d")
 		)
@@ -5383,9 +6834,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "81a9bda2-2012-47d3-a87a-9229015d1b46")
 		(property "Reference" "U201"
@@ -5408,7 +6859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5419,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5430,7 +6881,29 @@
 				)
 			)
 		)
-		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C45367201"
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5471,9 +6944,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d2ee77-0555-408d-b786-28cb237ad068")
@@ -5487,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Value" "56n"
+		(property "Value" "56nH"
 			(at 156.21 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +6981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0084_PDF_INDUCTOR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
 			(at 156.21 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5519,7 +6992,29 @@
 				)
 			)
 		)
-		(property "Description" "56nH 0805 SMD Murata part LQW2BAS56NJ00L"
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 156.21 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C98996"
+			(at 156.21 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5624,14 +7119,91 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.05 147.32 0)
+		(lib_id "power:GND")
+		(at 251.46 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(uuid "901194b9-bc2c-4662-9818-9a821cdd4c2f")
+		(property "Reference" "#PWR0217"
+			(at 251.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.778 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69518832-796e-40ac-a4c1-0b64600d04bc")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bb5f0e-ede1-4434-a1f5-d7a2fa8e1ddd")
@@ -5690,6 +7262,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C107115"
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6cbceec2-5d99-4df3-bcab-0a5082635b45")
 		)
@@ -5706,14 +7300,126 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 156.21 92.71 90)
+		(lib_id "Device:LED")
+		(at 251.46 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3d87c97-b499-46c5-a10d-069870dc0952")
+		(property "Reference" "D201"
+			(at 246.634 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 248.666 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://en.apvind.com/AHWF/"
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C12065"
+			(at 251.46 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b5b549b-2deb-44a7-9146-edc11bdaddc2")
+		)
+		(pin "2"
+			(uuid "aee22dcc-c2ee-40a6-84bb-707c4d6d997b")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 156.21 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd85fc7-47d6-4b55-9980-62c3886c9594")
@@ -5727,7 +7433,7 @@
 				)
 			)
 		)
-		(property "Value" "800n"
+		(property "Value" "220nH"
 			(at 156.21 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5748,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
 			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5759,7 +7465,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
+			(at 156.21 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C108960"
+			(at 156.21 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5791,9 +7519,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b579c525-9b9a-4a19-9c1a-f71dce16950c")
@@ -5807,7 +7535,7 @@
 				)
 			)
 		)
-		(property "Value" "1600n"
+		(property "Value" "810nH"
 			(at 179.07 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5828,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5839,7 +7567,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C98996"
+			(at 179.07 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5871,9 +7621,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ee65b2-3944-4baf-91a7-f7df6ecb51ca")
@@ -5888,7 +7638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50p"
+		(property "Value" "270p"
 			(at 149.86 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,6 +7672,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113828"
+			(at 146.05 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 146.05 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6031,13 +7803,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b989cdb7-12d6-47f4-8c68-c7abb2b4f46a")
 		(property "Reference" "C219"
-			(at 182.88 110.49 0)
+			(at 181.102 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6047,8 +7819,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50p"
-			(at 183.134 113.03 0)
+		(property "Value" "270p"
+			(at 181.356 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6081,6 +7853,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2986280"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6138,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 227.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6149,7 +7943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 227.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6160,7 +7954,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 227.33 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 227.33 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 227.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6274,6 +8090,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 252.73 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfd36d02-e3f6-4bb3-b4d6-d611a3b3bba3")
+		(property "Reference" "D202"
+			(at 247.904 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 249.936 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 252.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0084_PDF_INDUCTOR"
+			(at 252.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-- mixed values --"
+			(at 252.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C12065"
+			(at 252.73 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 252.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49fa434a-e40c-44ff-9d7c-a0f399b746b5")
+		)
+		(pin "2"
+			(uuid "b5408013-5057-4626-817f-2204804b4d5c")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 189.23 152.4 0)
 		(unit 1)
@@ -6352,14 +8280,91 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 179.07 92.71 90)
+		(lib_id "power:GND")
+		(at 252.73 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd877f3a-1593-473f-b053-c18a616531a6")
+		(property "Reference" "#PWR0219"
+			(at 252.73 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.048 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ec7c858-49cb-464d-9d53-b4dc5faba428")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 179.07 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc276ee-c40a-4a81-80c8-9ed0bc51614f")
@@ -6373,7 +8378,7 @@
 				)
 			)
 		)
-		(property "Value" "800n"
+		(property "Value" "220nH"
 			(at 179.07 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +8399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
 			(at 179.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6405,7 +8410,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
+			(at 179.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C108960"
+			(at 179.07 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 179.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6426,6 +8453,230 @@
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
 					(reference "L207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 252.73 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cffe27fd-03e5-4faf-8ca1-6a686741cf90")
+		(property "Reference" "D203"
+			(at 247.904 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 249.936 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-- mixed values --"
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C12065"
+			(at 252.73 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 252.73 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35600dad-68ac-4582-97e3-75a18a25018e")
+		)
+		(pin "2"
+			(uuid "01965564-2628-4af5-8380-19653c8f3ee0")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 252.73 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0c1a842-4a95-4f25-84cf-257c272a1906")
+		(property "Reference" "D204"
+			(at 247.904 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 249.936 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 252.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.umw-ic.com/static/pdf/474e419e0e51d5fed242a9a4f1b469e5.pdf"
+			(at 252.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C12065"
+			(at 252.73 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 252.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "171d34e1-d163-4eea-b8f9-4b627c85c4f8")
+		)
+		(pin "2"
+			(uuid "bb7fd7fb-9f75-4b66-b3bf-267cc1a8f024")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "D204")
 					(unit 1)
 				)
 			)
@@ -6463,7 +8714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 227.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6474,7 +8725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 227.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6485,7 +8736,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 227.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 227.33 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6575,6 +8848,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C519933"
+			(at 156.21 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 156.21 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6684,9 +8979,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd84e457-a8ac-4595-92d0-f0812ebdfd32")
@@ -6700,7 +8995,7 @@
 				)
 			)
 		)
-		(property "Value" "31p"
+		(property "Value" "75pF"
 			(at 179.07 25.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,6 +9038,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C113832"
+			(at 179.07 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 179.07 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d0774d48-5f30-4699-ab6b-d15af9b352bf")
 		)
@@ -6764,14 +9081,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e043e79e-048e-4542-9211-b16612e69d5b")
 		(property "Reference" "R202"
-			(at 54.61 121.9199 0)
+			(at 53.848 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6782,7 +9098,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 54.61 124.4599 0)
+			(at 53.848 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6803,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 52.07 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6814,7 +9130,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 52.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17378"
+			(at 52.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 52.07 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6846,14 +9184,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb1658b9-139a-4195-a68c-f8951256baf4")
 		(property "Reference" "R201"
-			(at 54.61 111.7599 0)
+			(at 53.848 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6864,7 +9201,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 54.61 114.2999 0)
+			(at 53.848 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6885,7 +9222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6896,7 +9233,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C114567"
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +9283,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 52.07 109.22 0)
+		(at 52.07 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6935,7 +9294,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e2cb60-d3f5-4b01-97ea-4367351649b3")
 		(property "Reference" "#PWR0201"
-			(at 52.07 113.03 0)
+			(at 52.07 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +9305,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 52.07 104.14 0)
+			(at 52.07 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6956,7 +9315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 109.22 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6967,7 +9326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 109.22 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,7 +9337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 109.22 0)
+			(at 52.07 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,6 +9354,108 @@
 			(project "xmit"
 				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
 					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f00912-7d75-4cb3-8a39-512e02958257")
+		(property "Reference" "R204"
+			(at 243.84 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 243.84 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.84 79.502 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C22775"
+			(at 243.84 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7cc05dd-d1ab-48f4-8842-bf98d63faff2")
+		)
+		(pin "2"
+			(uuid "453cd6ec-59f3-4e81-89f7-9c04b8ce8ad2")
+		)
+		(instances
+			(project "xmit"
+				(path "/938afe95-c1c4-4cca-88b7-71a9df9e4417/d56c1af1-445b-422e-b409-ad6096fe6282"
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -7032,7 +9493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7043,7 +9504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ths6222.pdf"
 			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7054,7 +9515,29 @@
 				)
 			)
 		)
-		(property "Description" "Single Bilateral Analog Switch, SOT-23-5/SC-70-5"
+		(property "Description" ""
+			(at 227.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C113518"
+			(at 227.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
